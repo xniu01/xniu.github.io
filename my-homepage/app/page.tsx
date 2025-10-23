@@ -171,7 +171,7 @@ function PaperList({ papers }: { papers: ReadonlyArray<{
         const href = paperHref(p.links);
         return (
           <li key={i} className="leading-relaxed">
-            <div className="font-medium text-lg flex items-center gap-2">
+            <div className="font-medium text-lg">
               {href ? (
                 <a href={href} target="_blank" rel="noreferrer" className="underline hover:opacity-80">
                   {p.title}
@@ -179,7 +179,6 @@ function PaperList({ papers }: { papers: ReadonlyArray<{
               ) : (
                 <span>{p.title}</span>
               )}
-              {href && <ExternalLink className="w-4 h-4 opacity-70" />}
             </div>
             <div className="text-sm opacity-80">{p.authors.join(", ")}</div>
             <div className="text-sm opacity-80">{p.venue}{p.year ? `, ${p.year}` : ""}</div>
