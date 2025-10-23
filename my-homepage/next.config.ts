@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '',
+  basePath: '/xniu.github.io',
 };
 
 export default nextConfig;
