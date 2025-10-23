@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useEffect, useState } from "react";
-import { Mail, FileDown, Github, Linkedin, Globe, Moon, Sun, ExternalLink } from "lucide-react";
+import { Mail, FileDown, Github, Linkedin, Globe, Moon, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 // === Academic homepage: Intro + Research (robust build; optional links handled) ===
