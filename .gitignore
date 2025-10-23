@@ -1,0 +1,11 @@
+# Ignore macOS files
+.DS_Store
+
+# Keep the my-homepage source directory but ignore its build artifacts
+my-homepage/node_modules/
+my-homepage/.next/
+my-homepage/out/
+
+# Ignore temporary Next.js files in root
+__next.*
+*.txt
